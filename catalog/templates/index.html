@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Gender/Location Vs. Education</h1>
+  <p>Welcome to My website</p>
+  <h2>Dynamic content</h2>
+  <p>The website has the following record counts:</p>
+  <ul>
+    <li><strong>Person:</strong> {{ num_person }}</li>
+    <li><strong>Education:</strong> {{ num_education }}</li>
+    <li><strong>Location:</strong> {{ num_location }}</li>
+  </ul>
+  
+{% endblock %}

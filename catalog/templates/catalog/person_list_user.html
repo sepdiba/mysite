@@ -1,0 +1,18 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+    <h1>Created Person</h1>
+
+    {% if person_list %}
+    <ul>
+
+      {% for person in person_list %} 
+      <li>
+        <a href="{% url 'person-detail' person.person.pk %}">{{person.person.first_name}}</a>         
+      </li>
+      {% endfor %}
+    </ul>
+    {% else %}
+      <p>There are no persons created.</p>
+    {% endif %}  
+{% endblock %}
