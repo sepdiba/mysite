@@ -26,7 +26,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', 'h(yi2x0h96kqdwjvpqpw2#vvzn9(19
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
-DEBUG = bool(os.environ.get('DJANGO_DEBUG', False))
+DEBUG = bool(os.environ.get('DJANGO_DEBUG', True))
 
 ALLOWED_HOSTS = ['enigmatic-cove-83498.herokuapp.com']
 
