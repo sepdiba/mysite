@@ -1,5 +1,5 @@
 @echo off
-set "VIRTUAL_ENV=C:\Users\sepid\django_test\mysite\activate"
+set "VIRTUAL_ENV=C:\Users\sepid\mysite\activate"
 
 if defined _OLD_VIRTUAL_PROMPT (
     set "PROMPT=%_OLD_VIRTUAL_PROMPT%"
